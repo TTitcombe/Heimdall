@@ -1,0 +1,7 @@
+boto3
+requests
+pymongo
+black
+isort
+responses
+pytest
