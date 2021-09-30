@@ -4,12 +4,12 @@ Log carbon usage
 import logging
 import time
 
-from .carbon_intensity import get_intensity
+from .carbon_intensity import get_carbon_intensity
 
 
 def log_intensity(function, *args, **kwargs):
     start_time = time.time()
-    start_intensity = get_intensity()
+    start_intensity = get_carbon_intensity()
 
     output = function(*args, **kwargs)
 
