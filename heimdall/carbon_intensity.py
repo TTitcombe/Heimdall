@@ -11,6 +11,3 @@ def get_intensity() -> float:
         raise RuntimeError(f"Error fetching intensity: {response.json()}")
     else:
         return response.json()["intensity"]
-
-def get_carbon_intensity():
-    return get_intensity()
