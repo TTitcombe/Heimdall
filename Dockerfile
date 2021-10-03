@@ -7,8 +7,9 @@ COPY requirements.txt ./
 
 RUN pip install -r requirements.txt
 
-# Bundle app source
 COPY heimdall /app
 
 EXPOSE 8080
-CMD [ "python" ]
+EXPOSE 271017
+
+CMD [ "app/heimdall" ]

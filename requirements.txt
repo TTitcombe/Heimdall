@@ -2,7 +2,6 @@ boto3
 requests
 pymongo
 pytorch
-pytorch-lightning
 black
 isort
 responses
