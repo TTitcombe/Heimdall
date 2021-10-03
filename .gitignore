@@ -2,6 +2,10 @@
 docs/
 CHANGELOG.md
 demo.py
+_old/*
+.pdocs.ini
+.pdocs2.ini
+.pdocs3.ini
 
 
 # Byte-compiled / optimized / DLL files
